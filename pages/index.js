@@ -34,6 +34,31 @@ const Home = () => (
             Andrew Hah
           </Heading>
           <p>Math @ UChicago</p>
+          <Stack mt={4} spacing={4} direction='row' align='center'>
+            <Link href="/files/resume.pdf" target="_blank">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="red" size='md' variant='solid'>
+                Resume / CV
+              </Button>
+            </Link>
+            <Link href="https://www.linkedin.com/in/andrewhah/" target="_blank">
+              <IconButton
+                variant='outline'
+                colorScheme='red'
+                aria-label='linkedin'
+                fontSize='20px'
+                icon={<BsLinkedin />}
+              />
+            </Link>
+            <Link href="https://github.com/andrewjhah" target="_blank">
+              <IconButton
+                variant='outline'
+                colorScheme='red'
+                aria-label='github'
+                fontSize='20px'
+                icon={<BsGithub />}
+              />
+            </Link>
+          </Stack>
         </Box>
         <Box
           flexShrink={0}
