@@ -4,11 +4,13 @@ import {
   Container,
   Heading,
   Box,
+  Stack,
   SimpleGrid,
   Button,
   List,
   ListItem,
-  chakra
+  chakra,
+  IconButton
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -20,6 +22,7 @@ import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
