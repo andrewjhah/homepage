@@ -17,7 +17,7 @@ const LogoBox = styled.span`
   }
 
   &:hover > svg {
-    transform: rotate(20deg);
+    transform: rotate(-20deg);
   }
 `
 
@@ -33,7 +33,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Takuya Matsuyama
+          Andrew Hah
         </Text>
       </LogoBox>
 

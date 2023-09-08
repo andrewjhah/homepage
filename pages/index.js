@@ -94,9 +94,9 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           About Me
         </Heading>
-        <Paragraph>
-        I’m a student at the University of Chicago studying mathematics and computer science with a keen interest in interdisciplinary problem-solving. I am fascinated by the crossroads where hard sciences like math and computer science meet the more nuanced, human-centric fields like sociology and economics. My aim is to leverage mathematical precision and computational algorithms as robust tools for dissecting complex systems, providing innovative solutions to real-world challenges.
-        </Paragraph>
+        <p>
+        I’m a student at the University of Chicago studying mathematics and computer science with a keen interest in interdisciplinary problem-solving. I am fascinated by the crossroads where hard sciences like math and computer science meet the more nuanced, human-centric fields like sociology and economics. My aim is to leverage mathematical precision and computational algorithms as  tools for dissecting complex systems, providing innovative solutions to real-world challenges.
+        </p>
       </Section>
 
       <Section delay={0.2}>
