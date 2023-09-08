@@ -11,7 +11,6 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Andrew's homepage" />
         <meta name="author" content="Andrew Hah" />
         <meta name="author" content="andrewhah" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Andrew Hah" />
         <meta name="twitter:card" content="summary_large_image" />
