@@ -21,12 +21,9 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
-export const WorkGridItem = ({ children, id, title, thumbnail }) => (
+export const ResearchGridItem = ({ children, id, title, thumbnail }) => (
   <Box w="100%" textAlign="center">
     <LinkBox
-      as={NextLink}
-      href={`/works/${id}`}
-      scroll={false}
       cursor="pointer"
     >
       <Image
@@ -35,7 +32,26 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
         className="grid-item-thumbnail"
         placeholder="blur"
       />
-      <LinkOverlay as="div" href={`/works/${id}`}>
+      <Text mt={2} fontSize={20}>
+        {title}
+      </Text>
+      <Text fontSize={14}>{children}</Text>
+    </LinkBox>
+  </Box>
+)
+
+export const WorkGridItem = ({ children, id, title, thumbnail }) => (
+  <Box w="100%" textAlign="center">
+    <LinkBox
+      cursor="pointer"
+    >
+      <Image
+        src={thumbnail}
+        alt={title}
+        className="grid-item-thumbnail"
+        placeholder="blur"
+      />
+      <LinkOverlay as="div" href={`/files/${id}`}>
         <Text mt={2} fontSize={20}>
           {title}
         </Text>
