@@ -1,7 +1,6 @@
 import { Container, Heading, LinkOverlay, SimpleGrid, Stack } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { ResearchGridItem } from '../components/grid-item'
 
 import thumbStudentDepression from '../public/images/contents/student_depression.png'
