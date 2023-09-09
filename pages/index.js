@@ -22,7 +22,7 @@ import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsLinkedin } from 'react-icons/bs'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -50,15 +50,6 @@ const Home = () => (
                 aria-label='linkedin'
                 fontSize='20px'
                 icon={<BsLinkedin />}
-              />
-            </Link>
-            <Link href="https://github.com/andrewjhah" target="_blank">
-              <IconButton
-                variant='outline'
-                colorScheme='red'
-                aria-label='github'
-                fontSize='20px'
-                icon={<BsGithub />}
               />
             </Link>
           </Stack>
