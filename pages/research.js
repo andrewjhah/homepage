@@ -17,7 +17,7 @@ const Research = () => (
         <Section delay={0.1}>
           <SimpleGrid columns={[1, 2, 2]} gap={6}>
             <LinkOverlay href = "/files/student_depression.pdf">
-              <ResearchGridItem id="student_depression" title="Modelling and Predicting Student Depression Levels" thumbnail={thumbStudentDepression}>
+              <ResearchGridItem id="student_depression" title="Modeling and Predicting College Student Depression Levels" thumbnail={thumbStudentDepression}>
               </ResearchGridItem>
             </LinkOverlay>
           </SimpleGrid>
