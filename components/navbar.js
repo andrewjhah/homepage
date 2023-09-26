@@ -82,6 +82,9 @@ const Navbar = props => {
           <LinkItem href="/research" path={path}>
             Research
           </LinkItem>
+          <LinkItem href="/files/resume.pdf" target="_blank" path={path}>
+            Resume
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
