@@ -100,7 +100,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>Programming Languages:</BioYear>
-          Python, Java, Javascript, HTML, CSS, SQL
+          C, Python, Java, Javascript, HTML, CSS, SQL
         </BioSection>
         <BioSection>
           <BioYear>Frameworks & Libraries:</BioYear>
