@@ -104,7 +104,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Frameworks & Libraries:</BioYear>
-          Pytorch, React, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn
+          Pytorch, React, Pandas, Numpy, Matplotlib, Seaborn
         </BioSection>
       </Section>
 
