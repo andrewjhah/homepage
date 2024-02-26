@@ -31,7 +31,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Andrew Hah
           </Heading>
-          <p>Math @ UChicago</p>
+          <p>Math, CS @ UChicago</p>
           <Stack mt={4} spacing={4} direction='row' align='center'>
             <Link href="/files/resume.pdf" target="_blank">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="red" size='md' variant='solid'>
