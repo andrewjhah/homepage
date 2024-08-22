@@ -100,11 +100,11 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>Programming Languages:</BioYear>
-          C, Python, Java, Javascript, HTML, CSS, SQL
+          C, Python, Rust, Javascript, HTML, CSS, PostgreSQL
         </BioSection>
         <BioSection>
           <BioYear>Frameworks & Libraries:</BioYear>
-          Pytorch, React, Pandas, Numpy, Matplotlib, Seaborn
+          Pytorch, React, Pandas, Numpy
         </BioSection>
       </Section>
 
