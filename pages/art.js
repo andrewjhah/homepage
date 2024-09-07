@@ -6,11 +6,8 @@ import { GridItem } from '../components/grid-item'
 import thumbRubbing1 from '../public/images/art/rubbing-1.png'
 import thumbRubbing2 from '../public/images/art/rubbing-2.png'
 import thumbRubbing3 from '../public/images/art/rubbing-3.png'
-import thumbCharc1 from '../public/images/art/charc-1.png'
 import thumbCharc2 from '../public/images/art/charc-2.png'
-import thumbCenti1 from '../public/images/art/centi-1.png'
 import thumbCenti2 from '../public/images/art/centi-2.png'
-import thumbPhoto1 from '../public/images/art/photo-1.png'
 
 const Projects = () => (
   <Layout title="Art">
