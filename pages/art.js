@@ -43,44 +43,44 @@ const Projects = () => (
           </GridItem>
         </Section>
       </SimpleGrid>
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+    {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
         <GridItem
             href="/images/art/charc-1.png" 
             target="_blank" 
             thumbnail={thumbCharc1}
-          >
-          </GridItem>
-          <GridItem
+        >
+        </GridItem>
+        <GridItem
             href="/images/art/charc-2.png" 
             target="_blank" 
             thumbnail={thumbCharc2}
-          >
-          </GridItem>
-          <GridItem
+        >
+        </GridItem>
+        <GridItem
             href="/images/art/centi-1.png" 
             target="_blank" 
             thumbnail={thumbCenti1}
-          >
-          </GridItem>
-          <GridItem
+        >
+        </GridItem>
+        <GridItem
             href="/images/art/centi-2.png" 
             target="_blank" 
             thumbnail={thumbCenti2}
-          >
-          </GridItem>
+        >
+        </GridItem>
         </Section>
-      </SimpleGrid>
-      <SimpleGrid columns={[1, 1, 4]} gap={6}>
+    </SimpleGrid>
+    <SimpleGrid columns={[1, 1, 4]} gap={6}>
         <Section>
         <GridItem
             href="/images/art/photo-1.png" 
             target="_blank" 
             thumbnail={thumbPhoto1}
-          >
-          </GridItem>
+        >
+        </GridItem>
         </Section>
-      </SimpleGrid>
+    </SimpleGrid> */}
     </Container>
   </Layout>
 )
