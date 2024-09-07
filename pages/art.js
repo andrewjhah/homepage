@@ -17,10 +17,12 @@ const Projects = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
         <GridItem
-            href=""
+            href="/images/art/rubbing-1.png" 
+            target="_blank" 
+            path={path}
             thumbnail={thumbRubbing1}
           >
-            
+
           </GridItem>
         </Section>
       </SimpleGrid>
