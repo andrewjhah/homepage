@@ -8,6 +8,7 @@ import thumbRubbing2 from '../public/images/art/rubbing-2.png'
 import thumbRubbing3 from '../public/images/art/rubbing-3.png'
 import thumbCharc2 from '../public/images/art/charc-2.png'
 import thumbCenti2 from '../public/images/art/centi-2.png'
+import thumbAbstract1 from '../public/images/art/abstract-1.png'
 
 const Projects = () => (
   <Layout title="Art">
@@ -21,15 +22,24 @@ const Projects = () => (
       <SimpleGrid columns={[1, 1, 1]} gap={6} width="100%">
         <Section>
         <GridItem
+            href="/images/art/abstract-1.png" 
+            target="_blank" 
+            thumbnail={thumbAbstract1}
+            priority
+          >
+          </GridItem>
+        <GridItem
             href="/images/art/rubbing-1.png" 
             target="_blank" 
             thumbnail={thumbRubbing1}
+            priority
           >
           </GridItem>
           <GridItem
             href="/images/art/rubbing-2.png" 
             target="_blank" 
             thumbnail={thumbRubbing2}
+            priority
           >
           </GridItem>
           <GridItem
