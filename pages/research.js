@@ -20,7 +20,7 @@ const Research = () => (
           <LinkOverlay href = "/files/andrew-hah-reu-paper.pdf">
               <ResearchGridItem id="lattice-crypto" title="Lattice-Based Cryptography" thumbnail={thumbLatticeCrypto}>
               </ResearchGridItem>
-            </LinkOverlay>
+            </LinkOverlay> 
             <LinkOverlay href = "/files/student_depression.pdf">
               <ResearchGridItem id="student_depression" title="Modeling and Predicting College Student Depression Levels" thumbnail={thumbStudentDepression}>
               </ResearchGridItem>
