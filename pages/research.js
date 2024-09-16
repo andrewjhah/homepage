@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { ResearchGridItem } from '../components/grid-item'
 
 import thumbStudentDepression from '../public/images/contents/student_depression.png'
+import thumbLatticeCrypto from '../public/images/contents/lattice-crypto.png'
 
 const Research = () => (
   <Layout title="Research">
@@ -16,6 +17,10 @@ const Research = () => (
 
         <Section delay={0.1}>
           <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <LinkOverlay href = "/files/andrew-hah-reu-paper.pdf">
+              <ResearchGridItem id="lattice-crypto" title="Lattice-Based Cryptography" thumbnail={thumbLatticeCrypto}>
+              </ResearchGridItem>
+            </LinkOverlay>
             <LinkOverlay href = "/files/student_depression.pdf">
               <ResearchGridItem id="student_depression" title="Modeling and Predicting College Student Depression Levels" thumbnail={thumbStudentDepression}>
               </ResearchGridItem>

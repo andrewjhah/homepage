@@ -18,6 +18,7 @@ import { BsLinkedin, BsMedium } from 'react-icons/bs'
 import { BioSection, BioYear } from '../components/bio'
 import thumbSatellite from '../public/images/works/satellite.png'
 import thumbStudentDepression from '../public/images/contents/student_depression.png'
+import thumbLatticeCrypto from '../public/images/contents/lattice-crypto.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -122,6 +123,11 @@ const Home = () => (
           Projects/Research
         </Heading>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <GridItem href="/files/andrew-hah-reu-paper.pdf"
+        title="Lattice-Based Cryptography"
+        thumbnail={thumbLatticeCrypto}>
+      
+        </GridItem>
           <GridItem
             href="https://medium.com/@andrew.hah/using-satellite-imagery-to-predict-house-prices-5454b3f53c42"
             title="Using Satellite Imagery to Predict House Prices"
